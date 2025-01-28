@@ -121,6 +121,9 @@ font-size: 2.5rem;
 }
  
 .cards img{
+    display: flex;
+    flex-wrap: wrap;
+    object-fit: cover;
     border-radius: 10px;
     width: 250px;
     height: 250px;
@@ -181,14 +184,35 @@ font-size: 2.5rem;
     display: flex;
     justify-content: center;
     color: #92AC5B;
+    margin-top: 40px;
+}
+
+.grey-txt{
+ color:grey;
+}
+
+.browse_Img_Txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Latest-container{
+ display: flex;
+ justify-content:space-between;
+ align-items: baseline;
+ margin: 0px 50px;
+ /* border: 2px solid black; */
 }
 
 #list-of-category{
+    margin: 20px 300px;
     background-color: rgb(245, 242, 242);
-    padding: 40px;
+    padding: 40px 0px;
     display: flex;
     justify-content: center;
-    justify-content: space-between;
+    gap: 15px;
+    /* justify-content: space-between; */
 }
 
 #list-of-category a{
@@ -208,6 +232,11 @@ font-size: 2.5rem;
     margin: 5px;
 }
 
+.latest-text-color{
+    font-size: 14px;
+    color: #92AC5B;
+}
+
 .section-deco{
     /* padding: 10px; */
     display: flex;
@@ -218,7 +247,9 @@ font-size: 2.5rem;
     display: flex;
     /* grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr; */
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    margin: 30px;
+    justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
 }
@@ -229,7 +260,7 @@ font-size: 2.5rem;
 
 .grid img{
     height: 400px;
-    width: 430px;
+    width: 380px;
     padding-left:1ox;
 }
 
@@ -269,13 +300,49 @@ font-size: 2.5rem;
 }
 
 .flex{
+    margin: 0px 100px;
+    padding: 30px 0px;
+    background-color: rgba(244, 245, 243, 0.944);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
+}
+
+.flex_img_txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .img-box{
-    height: 200px;
+    object-fit: cover;
+    height: 250px;
     width: 200px;
 }
+
+.section7{
+  margin: 30px 280px;
+  background-color: rgba(244, 245, 243, 0.944);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ .section7 h1 img{
+    height: 52px;
+ }
+
+ .box_over_box{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+ }
+
+ .box_over_box_second{
+    margin-top: 90px;
+    margin-bottom: 90px;
+    margin-right: 650px;
+    background-color: white;
+    border: 1px solid red;
+ }
