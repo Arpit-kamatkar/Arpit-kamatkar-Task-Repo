@@ -45,6 +45,10 @@ nav ul li a{
     color: rgb(129, 184, 27);
 }
  
+.nav-toggle{
+  display: none;
+}
+
 /* best of vegan sectin*/
  
 #best-vegan{
@@ -81,7 +85,6 @@ font-size: 2.5rem;
     justify-content: center;
     align-items: center;
     background-color: #eceae0;
-    margin-top: 70px;
 }
 
 #firstrecepie{
@@ -100,7 +103,7 @@ font-size: 2.5rem;
 }
 #right-content{
 
-   flex: 1;
+    flex: 1;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -206,7 +209,8 @@ font-size: 2.5rem;
 }
 
 .section-deco{
-    padding: 20px;
+    /* padding: 10px; */
+    display: flex;
     margin-top: 10px;
 }
 
@@ -240,6 +244,7 @@ font-size: 2.5rem;
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    padding: 25px;
 }
 
 .input-field input{
@@ -265,6 +270,8 @@ font-size: 2.5rem;
 
 .flex{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 10px;
 }
 

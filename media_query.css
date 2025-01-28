@@ -1,0 +1,39 @@
+@media screen and (max-width: 991px){
+    .nav-toggle{
+      display: block; 
+      margin-right: 20px;
+    }
+
+    #subscribe-link{
+        display: none;
+    }
+
+    #socials{
+        display: none;
+    }
+
+    .bestofvegan-heading{
+        display: none;
+    }
+
+    #content{
+ 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    #left-content{
+     display: none;
+    }
+
+    #right-content{
+        display: grid;
+        grid-template-columns: 250px 250px 250px;
+        gap: 50px;
+    }
+    
+}
+
