@@ -5,12 +5,12 @@ html,body{
 
 @media screen and (max-width: 991px){
     
-    .nav-toggle{
+    .navToggle{
       display: block; 
       margin-right: 20px;
     }
 
-    #subscribe-link{
+    #subscribeLink{
         display: none;
     }
 
@@ -18,7 +18,7 @@ html,body{
         display: none;
     }
 
-    .bestofvegan-heading{
+    .bestOfVeganHeading{
         display: none;
     }
 
@@ -31,54 +31,54 @@ html,body{
         padding: 20px;
     }
     
-    #left-content{
+    #leftContent{
      display: none;
     }
 
-    #right-content{
+    #rightContent{
         display: grid;
         grid-template-columns: 250px 250px 250px;
         gap: 50px;
     }
 
-    .box_over_box {
+    .boxOverBox {
         flex-direction: column;
         padding: 20px;
     }
 
-    .box_over_box_img {
+    .boxOverBoxImg {
         max-width: 100%;
     }
 
-    .box_over_box_second {
+    .boxOverBoxSecond {
         padding: 20px;
     }
 
-    .box_over_box_second h2 {
+    .boxOverBoxSecond h2 {
         font-size: large;
     }
 
-    .box_over_box_second p {
+    .boxOverBoxSecond p {
         font-size: 18px;
     }
 
-    .box_over_box_second a {
+    .boxOverBoxSecond a {
         width: 100%;
         text-align: center;
     }
 
-    .about-section {
+    .aboutSection {
         flex-direction: column;
         height: auto;
     }
  
-    .about-image img {
+    .aboutImage img {
         width: 100%;
         height: auto;
         margin: 0;
     }
  
-    .about-content {
+    .aboutContent {
         position: relative;
         top: 0;
         left: 0;
@@ -93,194 +93,53 @@ html,body{
             text-align: center;
         }
     
-        #the-upper-footer {
+        #theUpperFooter {
             width: 90%;
         }
     
-        #the-upper-footer h1 {
+        #theUpperFooter h1 {
             font-size: 40px;
             margin-left: 0;
         }
     
-        #the-upper-footer h6 {
+        #theUpperFooter h6 {
             font-size: 15px;
             margin-left: 0;
             letter-spacing: 1px;
             word-spacing: 2px;
         }
     
-        #the-ul {
+        #theUl {
             flex-direction: column;
             align-items: center;
             gap: 10px;
             font-size: 18px;
         }
     
-        #the-bottom-footer {
+        #theBottomFooter {
             flex-direction: column;
             align-items: center;
             width: 100%;
         }
     
-        #left-bottom-footer, #right-bottom-footer {
+        #leftBottomFooter, #rightBottomFooter {
             padding-left: 0;
             text-align: center;
             margin-bottom: 20px;
         }
     
-        .footer-space {
+        .footerSpace {
             padding: 5px 20px;
             font-size: 14px;
         }
     
-        .footer-white-bottom {
+        .footerWhiteBottom {
             padding: 20px;
         }
     
-        .footer-white-bottom p {
+        .footerWhiteBottom p {
             font-size: 14px;
         }    
 
     }
-
-
-    @media screen and (max-width: 479px) {
-    .nav-bar {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 10px;
-    }
-
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
-
-    #socials {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
-
-    #best-vegan {
-        flex-direction: column;
-        height: auto;
-        padding: 20px;
-        text-align: center;
-    }
-
-    #best-vegan h1 {
-        margin-left: 0;
-        font-size: 2rem;
-    }
-
-    #content {
-        flex-direction: column;
-        text-align: center;
-        padding: 10px;
-    }
-
-    #firstrecepie {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    #left-content {
-        max-width: 100%;
-        padding: 10px;
-    }
-
-    #right-content {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-    }
-
-    .cards {
-        width: 100%;
-        height: auto;
-    }
-
-    .cards img {
-        width: 100%;
-        height: auto;
-    }
-
-    #form-container {
-        flex-direction: column;
-        height: auto;
-        padding: 20px;
-    }
-
-    #form-content input {
-        width: 100%;
-    }
-
-    #list-of-category {
-        flex-direction: column;
-        margin: 10px;
-        padding: 20px;
-        text-align: center;
-    }
-
-    .grid {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .grid img {
-        width: 100%;
-        height: auto;
-    }
-
-    #footer {
-        padding: 20px;
-        text-align: center;
-    }
-
-    #the-upper-footer {
-        width: 100%;
-    }
-
-    #the-upper-footer h1 {
-        font-size: 30px;
-        margin-left: 0;
-    }
-
-    #the-upper-footer h6 {
-        font-size: 14px;
-        margin-left: 0;
-    }
-
-    #the-ul {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    #the-bottom-footer {
-        flex-direction: column;
-        width: 100%;
-        text-align: center;
-    }
-
-    #left-bottom-footer,
-    #right-bottom-footer {
-        padding-left: 0;
-        margin-bottom: 20px;
-    }
-
-    .footer-space {
-        font-size: 14px;
-        padding: 5px;
-    }
-
-    .footer-white-bottom {
-        padding: 15px;
-    }
-
-    .footer-white-bottom p {
-        font-size: 14px;
-    }
-}
 

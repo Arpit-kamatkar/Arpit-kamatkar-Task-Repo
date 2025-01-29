@@ -3,7 +3,7 @@
     padding: 0;
 }
  
-.nav-bar{
+.navBar{
     height: 10%;
     display: flex;
     justify-content: space-between;
@@ -41,17 +41,17 @@ nav ul li a{
     text-decoration: none;
     padding: 10px;
 }
-#subscribe-link a{
+#subscribeLink a{
     color: rgb(129, 184, 27);
 }
  
-.nav-toggle{
+.navToggle{
   display: none;
 }
 
 /* best of vegan sectin*/
  
-#best-vegan{
+#bestVegan{
     height: 100px;
     width: 100%;
     display: flex;
@@ -62,7 +62,7 @@ nav ul li a{
     /* text-decoration: none;
     margin-bottom: 300px; */
 }
-#best-vegan h1{
+#bestVegan h1{
 margin-left: 100px;
 font-size: 2.5rem;
 }
@@ -87,7 +87,7 @@ font-size: 2.5rem;
     background-color: #eceae0;
 }
 
-#firstrecepie{
+#firstRecepie{
     
     display: flex;
     align-items: center;
@@ -96,12 +96,12 @@ font-size: 2.5rem;
     color: rgb(0, 0, 0);
    
 }
-#left-content{
+#leftContent{
     
     max-width: 40%;
     padding: 20px;
 }
-#right-content{
+#rightContent{
 
     flex: 1;
     display: grid;
@@ -130,17 +130,17 @@ font-size: 2.5rem;
     /* object-fit: fill; */
     
 }
-#left-content h1{
+#leftContent h1{
     margin: 80px 0px 0px 80px;
     font-size: 4rem;
 }
-#left-content p{
+#leftContent p{
     margin: 30px 0px 0px 80px;
     font-size: 1.3rem;
 }
  
 /*form container*/
-#form-container{
+#formContainer{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,7 +148,7 @@ font-size: 2.5rem;
    height: 300px;
 }
  
-#head-form{
+#headForm{
     display: flex;
    flex-direction: column;
     align-items: center;
@@ -157,7 +157,7 @@ font-size: 2.5rem;
    
    
 }
-#form-content input{
+#formContent input{
     color: black;
     width: 300px;
     height: 23px;
@@ -166,7 +166,7 @@ font-size: 2.5rem;
     border-radius: 7px;
  
 }
-#form-content button{
+#formContent button{
     width: 170px;
     height: 47px;
     margin: 10px;
@@ -180,24 +180,24 @@ font-size: 2.5rem;
     margin: 20px;
 }
 
-#browse-heading{
+#browseHeading{
     display: flex;
     justify-content: center;
     color: #92AC5B;
     margin-top: 40px;
 }
 
-.grey-txt{
+.greyTxt{
  color:grey;
 }
 
-.browse_Img_Txt{
+.browseImgTxt{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#Latest-container{
+#LatestContainer{
  display: flex;
  justify-content:space-between;
  align-items: baseline;
@@ -205,7 +205,7 @@ font-size: 2.5rem;
  /* border: 2px solid black; */
 }
 
-#list-of-category{
+#listOfCategory{
     margin: 20px 300px;
     background-color: rgb(245, 242, 242);
     padding: 40px 0px;
@@ -215,7 +215,7 @@ font-size: 2.5rem;
     /* justify-content: space-between; */
 }
 
-#list-of-category a{
+#listOfCategory a{
     text-decoration: none;
     color: grey;
 }
@@ -232,12 +232,12 @@ font-size: 2.5rem;
     margin: 5px;
 }
 
-.latest-text-color{
+.latestTextColor{
     font-size: 14px;
     color: #92AC5B;
 }
 
-.section-deco{
+.sectionDeco{
     /* padding: 10px; */
     display: flex;
     margin-top: 10px;
@@ -269,7 +269,7 @@ font-size: 2.5rem;
     font-size: 25px;
 }
 
-#Search-recipes{
+#SearchRecipes{
     background-color: rgb(183, 196, 162);
     display: flex;
     flex-direction: column;
@@ -278,20 +278,20 @@ font-size: 2.5rem;
     padding: 25px;
 }
 
-.input-field input{
+.inputField input{
     padding-top:15px;
     padding-bottom:15px ;
     padding-left:190px ;
     padding-right: 190px;
 }
 
-#seachbar-icon{
+#searchBarIcon{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.icon-deco{
+.iconDeco{
     /* padding-top:11px;
     padding-bottom:11px ; */
     padding: 11px 41px;
@@ -309,19 +309,19 @@ font-size: 2.5rem;
     gap: 20px;
 }
 
-.flex_img_txt{
+.flexImgTxt{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.img-box{
+.imgBox{
     object-fit: cover;
     height: 250px;
     width: 200px;
 }
 
-.section7{
+.section{
   margin: 30px 280px;
   background-color: rgba(244, 245, 243, 0.944);
   display: flex;
@@ -329,11 +329,11 @@ font-size: 2.5rem;
   align-items: center;
 }
 
- .section7 h1 img{
+ .section h1 img{
     height: 52px;
  }
 
-.about-section {
+.aboutSection {
  position: relative;
  width: 100%;
  height: 926px;;
@@ -344,7 +344,7 @@ font-size: 2.5rem;
  margin-top: 80px;
 }
 
-.about-image img {
+.aboutImage img {
  height:830px;
  width: 820px;
  display: block;
@@ -352,7 +352,7 @@ font-size: 2.5rem;
  margin-right: 300px;
 }
 
-.about-content {
+.aboutContent {
  position: absolute;
  top: 13%;
  left:70%;
@@ -363,20 +363,20 @@ font-size: 2.5rem;
  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
 
-.about-content h6 {
+.aboutContent h6 {
  font-size: 14px;
  letter-spacing: 1px;
  color: #7b8b6f;
  text-transform: uppercase;
 }
 
-.about-content h2 {
+.aboutContent h2 {
  font-size: 28px;
  color: #5a7247;
  margin-bottom: 15px;
 }
 
-.about-content p {
+.aboutContent p {
  font-size: 22px;
  color: #333;
  line-height: 1.8;
@@ -385,7 +385,7 @@ font-size: 2.5rem;
  
 }
 
-.about-btn {
+.aboutBtn {
  background-color: #a3c293;
  color: #333;
  padding: 10px 20px;
@@ -396,18 +396,18 @@ font-size: 2.5rem;
  margin-top: 30px;
 }
 
-.about-btn:hover {
+.aboutBtn:hover {
  background-color: #89a978;
 }
 
-.flex-res{
+.flexRes{
     background-color: rgb(244, 241, 241);
     display: flex;
     justify-content: center;
     /* align-items: center; */
 }
 
-.flex_img_txt-res{
+.flexImgTxtRes{
  display: flex;
  flex-direction: column;
  /* justify-content: center; */
@@ -417,7 +417,7 @@ font-size: 2.5rem;
 }
 
 
-.img-box-res{
+.imgBoxRes{
     margin: 20px;
     padding:0px 20px ;
     object-fit: cover;
@@ -425,7 +425,7 @@ font-size: 2.5rem;
     height: 60%;
 }
 
-.img-box-res-p{
+.imgBoxResP{
     padding-left: 20px;
     font-size: 20px;
     font-weight: 500;
@@ -444,17 +444,17 @@ font-size: 2.5rem;
     padding-bottom: 50px;
  }
 
- #the-upper-footer{
+ #theUpperFooter{
     width: 50%;
  }
 
- #the-upper-footer h1{
+ #theUpperFooter h1{
     margin-top:40px;
     margin-left: 280px;
     font-size: 50px;
  }
 
- #the-upper-footer h6{
+ #theUpperFooter h6{
     margin-top: 30px;
     margin-left: 360px;
     font-size: 17px;
@@ -462,7 +462,7 @@ font-size: 2.5rem;
     word-spacing: 3px;
  }
 
-#the-ul{
+#theUl{
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
@@ -471,30 +471,30 @@ font-size: 2.5rem;
     list-style: none;
 }
 
-#the-bottom-footer{
+#theBottomFooter{
     display: flex;
     width: 70%;
 }
 
-#left-bottom-footer{
+#leftBottomFooter{
     padding-left:30px;
 }
 
-#left-bottom-footer h1{
+#leftBottomFooter h1{
     margin-left: 15px;
 }
 
-#left-bottom-footer p{
+#leftBottomFooter p{
     font-size: 15px;
     font-weight: 300;
     margin-top: 20px;
 }
 
-#right-bottom-footer{
+#rightBottomFooter{
     padding-left: 80px;
 }
 
-.footer-space{
+.footerSpace{
     padding: 0px 40px;
     text-decoration: none;
     color: #7c846c;
@@ -503,20 +503,20 @@ font-size: 2.5rem;
     padding-top: 8px;
 }
 
-.footer-space-heading1{
+.footerSpaceHeading1{
     padding-right:70px ;
 }
 
-.footer-space-heading2{
+.footerSpaceHeading2{
     padding-right: 4px;
 }
 
 
-.footer-space-heading3{
+.footerSpaceHeading3{
     padding-right: 0px;
 }
 
-.footer-white-bottom{
+.footerWhiteBottom{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -525,11 +525,11 @@ font-size: 2.5rem;
     padding-top: 15px;
 }
 
-.footer-white-bottom p{
+.footerWhiteBottom p{
     margin-bottom: 10px;
     margin-top: 10px;
 }
 
-.footer-white-bottom a{
+.footerWhiteBottom a{
     color: #5a702a;
 }
