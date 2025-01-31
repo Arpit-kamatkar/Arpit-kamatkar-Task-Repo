@@ -1,4 +1,4 @@
-# **Best of Vegan Clone**  
+## 🎯 **Best of Vegan Clone**  
 
 ## 1. **Project Overview**  
 This is a beginner-friendly clone of the **Best of Vegan** website, built using only HTML and CSS. The goal of this project is to practice web development fundamentals, including layout, styling, and responsiveness.  
