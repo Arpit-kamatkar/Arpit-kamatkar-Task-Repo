@@ -11,13 +11,16 @@ This is a beginner-friendly clone of the **Best of Vegan** website, built using 
 - Optimized images and media handling  
 
 ## 3. **Project Structure**  
-```
+
 📂 best-of-vegan-clone  
-├── 📂 Image          # Contains images, icons, and media files  
-├── 📂 CSS            # Stylesheets (index.css, mediaQuery.css)  
-├── 📜 index.html     # Homepage structure  
-├── 📜 README.md      # Project documentation  
-```  
+
+├── 📂 Image          **(Contains images, icons, and media files)**
+
+├── 📂 CSS            **(Stylesheets (index.css, mediaQuery.css)**  
+
+├── 📜 index.html     **(Homepage structure)**  
+
+├── 📜 README.md      **(Project documentation)**  
 
 ## 4. **Technologies Used**  
 - **HTML5** – Semantic and structured content **(Semantic tags will lead to better SEO)**
